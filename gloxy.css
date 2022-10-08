@@ -162,6 +162,7 @@ display: flex;
     margin:auto;
     padding:5rem;
     margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 .services>h3,.services>p{
     font-size:xx-large;
@@ -199,7 +200,8 @@ display: flex;
 }
 .card1,.card2,.card3,.card4,.card5,.card6{
     background-color: rgb(252, 252, 252);
-    width: 70%;
+    width: 98%;
+    height:90%;
       border: 1px solid rgb(205 205 205 / 33%);
       margin-bottom: 15rem;
 
@@ -220,13 +222,364 @@ display: flex;
 .imgPurchase{
     margin:4rem;
 }
+#logo2{
+    visibility: hidden;
+}
 @media only screen and (max-width: 1443px) {
     body {
       background-color: lightblue;
     }
+    .info{
+        margin:2%;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 85vh;
+        background-size: cover;
+        width: 100%;
+    }
+
   }
 @media only screen and (max-width: 1178px) {
     body {
       background-color: red;
+
     }
+    .info{
+        margin:2%;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 70vh;
+        background-size: cover;
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 1121px) {
+    body {
+      background-color: green;
+
+    }
+    .cardContainer{
+        margin-top: 50%;
+    }
+    .services{
+        margin-top:20%;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 77vh;
+        background-size: cover;
+        width: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 934px) {
+    body {
+      background-color: orchid;
+
+    }
+    .cardContainer{
+        margin-top: 50%;
+    }
+    .services{
+        margin-top:20%;
+    }
+    .logo{
+       margin-left:5rem;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 90vh;
+        background-size: cover;
+        width: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: orchid;
+
+    }
+    .card1{
+        grid-area:card1;
+    
+    }
+    .card2{
+        grid-area:card2;
+    }
+    .card3{
+        grid-area:card3;
+    }
+    .card4{
+        grid-area: card4;
+    }
+    .card5{
+        grid-area:card5;
+    }
+    .card6{
+        grid-area:card6;
+    }
+    .cardContainer2{
+    
+        display: flex;
+       place-items: center;
+       flex-direction: column;
+       grid-template-columns: 'card1 '
+                            'card2'
+                            'card3'
+                              'card4'
+                              ' card5'
+                              ' card6';
+       padding: inherit;
+       width: 100%;
+    }
+    .card1,.card2,.card3,.card4,.card5,.card6{
+        background-color: rgb(252, 252, 252);
+        width:70%;
+        height:90%;
+          border: 1px solid rgb(205 205 205 / 33%);
+          margin-bottom: 9rem;
+    
+    }
+    
+  
+  #navbar2{
+    display:none;
+  }
+  .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 80vh;
+    background-size: cover;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 891px) {
+    body {
+      background-color: orchid;
+
+    }
+   
+     .info p{
+         margin:1rem;
+         color:white;
+         font-size: 20px;
+     
+     }
+     .info h1{
+         font-size:  3rem;
+     }
+     .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 80vh;
+        background-size: cover;
+        width: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 891px) {
+    .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height:80vh;
+    background-size: cover;
+    width: 100%;
+}
+    body {
+      background-color: rgb(112, 117, 218);
+
+    }
+    #logo1{
+        visibility: hidden;
+    
+       }
+       #logo2{
+        visibility: visible;
+        margin-top: 10rem;
+        margin-left: 33rem;
+       }
+       
+       .uppernav p{
+        font-size: small;
+    }
+  }
+@media only screen and (max-width: 860px) {.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 75vh;
+    background-size: cover;
+    width: 100%;
+}
+    body {
+      background-color: rgb(112, 117, 218);
+
+    }
+    #logo1{
+        visibility: hidden;
+    
+       }
+       #logo2{
+        visibility: visible;
+        margin-top: 10rem;
+        margin-left: 33rem;
+       }
+       
+       .uppernav p{
+        font-size: xx-small;
+    }
+  }
+@media only screen and (max-width: 811px) {
+    .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 75vh;
+    background-size: cover;
+    width: 100%;
+}
+    body {
+      background-color: rgb(240, 236, 22);
+
+    }
+   #logo1{
+    visibility: hidden;
+
+   }
+   #logo2{
+    visibility: visible;
+    margin-top: 10rem;
+    margin-left: 33rem;
+   }
+   
+    .uppernav p{
+        font-size: 10px;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+  }
+@media only screen and (max-width: 788px) {.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 75vh;
+    background-size: cover;
+    width: 100%;
+}
+    body {
+      background-color: rgb(240, 236, 22);
+
+    }
+   #logo1{
+    visibility: hidden;
+
+   }
+   #logo2{
+    visibility: visible;
+    margin-top: 10rem;
+    margin-left: 33rem;
+   }
+   
+    .uppernav p{
+        font-size: 10px;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+  }
+@media only screen and (max-width: 786px) {.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+}
+    body {
+      background-color: rgb(22, 211, 240);
+
+    }
+   #logo1{
+    visibility: hidden;
+
+   }
+   #logo2{
+    visibility: visible;
+    margin-top: 10rem;
+    margin-left: 33rem;
+   }
+   
+    .uppernav p{
+        visibility: hidden;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+  }
+@media only screen and (max-width: 693px) {.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 65vh;
+    background-size: cover;
+    width: 100%;
+}
+    body {
+      background-color: rgb(22, 240, 29);
+
+    }
+   
+   
+    #navbar{
+            display: none;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+    .btn{
+        margin:1rem;
+    }
+    
   }
