@@ -4,6 +4,9 @@
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    background-color: white;
+}
 
 .uppernav {
     display: flex;
@@ -161,7 +164,7 @@ display: flex;
     width: 100%;
     margin:auto;
     padding:5rem;
-    margin-top: 10rem;
+    margin-top: 50rem;
     margin-bottom: 10rem;
 }
 .services>h3,.services>p{
@@ -169,6 +172,9 @@ display: flex;
     color:orangered;
     font-weight: 200;
     margin:3rem;
+}
+#ourWork{
+    margin-top:10rem;
 }
 .card1{
     grid-area:card1;
@@ -226,9 +232,7 @@ display: flex;
     visibility: hidden;
 }
 @media only screen and (max-width: 1443px) {
-    body {
-      background-color: lightblue;
-    }
+    
     .info{
         margin:2%;
     }
@@ -242,10 +246,7 @@ display: flex;
 
   }
 @media only screen and (max-width: 1178px) {
-    body {
-      background-color: red;
-
-    }
+    
     .info{
         margin:2%;
     }
@@ -258,10 +259,7 @@ display: flex;
     }
   }
 @media only screen and (max-width: 1121px) {
-    body {
-      background-color: green;
-
-    }
+   
     .cardContainer{
         margin-top: 50%;
     }
@@ -278,15 +276,12 @@ display: flex;
     
   }
 @media only screen and (max-width: 934px) {
-    body {
-      background-color: orchid;
-
-    }
+   
     .cardContainer{
-        margin-top: 50%;
+        margin-top: 74%;
     }
     .services{
-        margin-top:20%;
+        margin-top:35%;
     }
     .logo{
        margin-left:5rem;
@@ -301,10 +296,7 @@ display: flex;
     
   }
 @media only screen and (max-width: 900px) {
-    body {
-      background-color: orchid;
-
-    }
+   
     .card1{
         grid-area:card1;
     
@@ -360,10 +352,7 @@ display: flex;
 }
 }
 @media only screen and (max-width: 891px) {
-    body {
-      background-color: orchid;
-
-    }
+    
    
      .info p{
          margin:1rem;
@@ -391,10 +380,7 @@ display: flex;
     background-size: cover;
     width: 100%;
 }
-    body {
-      background-color: rgb(112, 117, 218);
-
-    }
+   
     #logo1{
         visibility: hidden;
     
@@ -416,10 +402,7 @@ display: flex;
     background-size: cover;
     width: 100%;
 }
-    body {
-      background-color: rgb(112, 117, 218);
-
-    }
+    
     #logo1{
         visibility: hidden;
     
@@ -442,10 +425,7 @@ display: flex;
     background-size: cover;
     width: 100%;
 }
-    body {
-      background-color: rgb(240, 236, 22);
-
-    }
+    
    #logo1{
     visibility: hidden;
 
@@ -480,10 +460,7 @@ display: flex;
     background-size: cover;
     width: 100%;
 }
-    body {
-      background-color: rgb(240, 236, 22);
-
-    }
+   
    #logo1{
     visibility: hidden;
 
@@ -511,17 +488,15 @@ display: flex;
         width: 19rem;
     }
   }
-@media only screen and (max-width: 786px) {.mainBody{
+@media only screen and (max-width: 786px) {
+    .mainBody{
     background:url("./banner.png");
     background-repeat:no-repeat;
     height: 70vh;
     background-size: cover;
     width: 100%;
 }
-    body {
-      background-color: rgb(22, 211, 240);
-
-    }
+   
    #logo1{
     visibility: hidden;
 
@@ -549,17 +524,15 @@ display: flex;
         width: 19rem;
     }
   }
-@media only screen and (max-width: 693px) {.mainBody{
+@media only screen and (max-width: 693px) {
+    .mainBody{
     background:url("./banner.png");
     background-repeat:no-repeat;
     height: 65vh;
     background-size: cover;
     width: 100%;
 }
-    body {
-      background-color: rgb(22, 240, 29);
-
-    }
+   
    
    
     #navbar{
@@ -581,5 +554,92 @@ display: flex;
     .btn{
         margin:1rem;
     }
+  
     
+  }
+
+
+  @media only screen and (max-width: 1177px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 707px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        margin-top:90rem;
+    }
+  }
+  @media only screen and (max-width: 685px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        margin-top:90rem;
+    }
+  }
+  @media only screen and (max-width: 693px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 45vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        margin-top:90rem;
+    }
+    .imgPurchase>img {
+        height: 8rem;
+        width: 8rem;
+    }
+    .cardHeading{
+        font-size: large;
+    }
+    .info {
+        position: absolute;
+        display: grid;
+        margin: auto;
+        place-items: left;
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .info>h3, h1 {
+        margin: 1rem;
+        font-size: small;
+        font-weight: 400;
+        color: white;
+    }
+    .info p {
+        margin: 1rem;
+        color: white;
+        font-size: 9px;
+    }
   }
